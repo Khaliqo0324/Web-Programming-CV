@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: blueviolet;
+    color: antiquewhite;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+footer {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.splash {
+    height: 100; /* Full viewport height */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Make text white to stand out on a dark background */
+    padding: 20px;
+}
+
+.splash img {
+    height: 100%;
+    border-radius: 60%; /* Circular headshot */
+    border: 3px solid white; /* Add a border around the headshot */
+    margin-bottom: 20px;
+}
+
+.splash h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+hr {
+    border: 1px solid white; /* Set a solid top border */
+    width: 100%; /* Make the horizontal rule shorter */
+    background-color: black;
+}
+
+section h2 {
+    font-family: "Roboto", sans-serif;
+    color: #fff
+}
+
+section ul {
+    list-style-type: square;
+}
+
+section dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+section a {
+    text-decoration: none;
+    color: white;
+}
+
+section a:hover {
+    color: blueviolet;
+}
+
+.edu, .honors, .skills, .lae, .projects {
+    color: white;
+    padding: 15px;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+.projects h2 {
+    margin: auto;
+}
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: blueviolet;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px; /* Adjust this value as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+    height: 50vh;
+}
